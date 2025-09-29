@@ -1,0 +1,54 @@
+/* ----------- GÉNÉRAL ----------- */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1c1c1c;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* ----------- CONTENEUR CANVAS ----------- */
+#gameContainer {
+  position: fixed;   /* couvre tout l’écran */
+  inset: 0;          /* top,right,bottom,left = 0 */
+}
+
+#gameContainer canvas {
+  width : 100% !important;
+  height: 100% !important;
+}
+
+
+/* Le canvas occupe tout le conteneur et reste au-dessus du décor */
+#gameContainer canvas {
+  position: absolute;
+  inset: 0;                /* top:0; right:0; bottom:0; left:0 */
+  display: block;
+  z-index: 10;             /* < menu (20) pour que le menu passe devant */
+}
+
+/* ----------- MENU PRINCIPAL ---------- */
+#menu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20;             /* > canvas => visible tant qu’il n’est pas masqué */
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+}
+
+#menu h1 { font-size: 2em; }
+
+/* ----------- BOUTONS ----------- */
+button {
+  padding: 10px 20px;
+  background-color: #008cba;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover { background-color: #005f6a; }

@@ -1,0 +1,25 @@
+{
+  "name": "cyber-survivors",
+  "version": "1.0.0",
+  "description": "2D web game with virus-infected desktop",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "node server/index.js",
+    "client": "npx live-server ./client --port=3001 --no-browser --no-cache",
+    "start": "node server/index.js"
+  },
+  "author": "Christopher Ristic",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "matter-js": "^0.20.0",
+    "phaser": "^3.88.2",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.10"
+  }
+}

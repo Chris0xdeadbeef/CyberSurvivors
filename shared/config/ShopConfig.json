@@ -1,0 +1,61 @@
+{
+    "lootChests": [
+        {
+            "id": "standard",
+            "name": "Standard",
+            "price": 100,
+            "imageKey": "chest_standard"
+        },
+        {
+            "id": "epic",
+            "name": "Épic",
+            "price": 300,
+            "imageKey": "chest_epic"
+        },
+        {
+            "id": "legend",
+            "name": "Légendaire",
+            "price": 1000,
+            "imageKey": "chest_legendary"
+        }
+    ],
+    "shopItems": [
+        {
+            "id": "shield",
+            "name": "Ballistic Cursor",
+            "price": 100,
+            "imageKey": "shop_shield"
+        },
+        {
+            "id": "shield",
+            "name": "Thermal Paste",
+            "price": 100,
+            "imageKey": "shop_shield"
+        },
+        {
+            "id": "shield",
+            "name": "Outlook Canon",
+            "price": 100,
+            "imageKey": "shop_shield"
+        },
+        {
+            "id": "shield",
+            "name": "Arc Plasma",
+            "price": 100,
+            "imageKey": "shop_shield"
+        },
+        {
+            "id": "shield",
+            "name": "Lag Spike",
+            "price": 100,
+            "imageKey": "shop_shield"
+        },
+        {
+            "id": "shield",
+            "name": "DirectX Beam",
+            "price": 100,
+            "imageKey": "shop_shield"
+        }
+    ],
+    "backgroundImage": "backdoorbazar_bg"
+}

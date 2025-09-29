@@ -1,0 +1,9 @@
+{
+  "quantum_cash": {
+    "sprite": "quantum_cash",
+    "animation": "quantum_cash_anim",
+    "framesEnd": 27,
+    "frameRate": 9,
+    "scale": 0.4
+  }
+}

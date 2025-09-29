@@ -1,0 +1,24 @@
+{
+  "adware": {
+    "sprite": "adware",
+    "animation": "adware_anim",
+    "framesEnd": 6,
+    "frameRate": 10,
+    "scale": 0.3,
+    "speed": 0.0009,
+    "maxHP": 100,
+    "radius": 50,
+    "cashAmount": [3, 5]
+  },
+  "spyware": {
+    "sprite": "spyware",
+    "animation": "spyware_anim",
+    "framesEnd": 7,
+    "frameRate": 10,
+    "scale": 0.1,
+    "speed": 0.0002,
+    "maxHP": 100,
+    "radius": 20,
+    "cashAmount": [3, 10]
+  }
+}

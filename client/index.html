@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <title>Cyber Survivors</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="icon" href="./sprites/favicon.png">
+  <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+</head>
+
+<body>
+  <!-- MENU ----------------------------------------------------------- -->
+  <div id="menu">
+    <h1>💻 Cyber Survivors</h1>
+
+    <p>Ton ID : <span id="playerId">…</span></p>
+    <p>Joueurs connectés : <span id="playerCount">0</span></p>
+
+    <label>
+      <input type="checkbox" id="coopMode" />
+      Mode coopératif
+    </label>
+
+    <br><br>
+
+    <!-- Nouvelle option : activer/désactiver la musique -->
+    <label>
+      <input type="checkbox" id="musicToggle" checked />
+      Musique du menu
+    </label>
+
+    <br><br>
+    <button id="startBtn">🎮 Jouer</button>
+  </div>
+
+  <!-- CANVAS PHASER --------------------------------------------------- -->
+  <div id="gameContainer"></div>
+
+  <!-- Scripts JS -->
+  <script type="module" src="./audio.js"></script>
+  <script type="module" src="./main.js?v=20444554535"></script>
+</body>
+</html>

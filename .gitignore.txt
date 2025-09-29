@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers temporaires / système
+.DS_Store
+Thumbs.db
+
+# Certificats, clés privées
+*.pem
+
+# Build / cache éventuels
+dist/
+build/
+.cache/
