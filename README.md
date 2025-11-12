@@ -1,5 +1,6 @@
 # 🦠 Cyber Survivors
 GAME LINK: https://cybersurvivors.onrender.com/
+Discord server : https://discord.gg/4yQnHTSC2k
 
 **Cyber Survivors** is a **2D survivor-like defense game** where you must protect your digital folders against endless waves of computer viruses inspired by real-world threats (ransomware, spyware, adware, trojans, worms, etc.).  
 The goal: **survive 30 minutes** on your digital desktop, manage your defenses, upgrade your modules, and adapt to random cyber events.
